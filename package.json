@@ -1,0 +1,15 @@
+{
+  "name": "iteration-vs-recursion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "iterative-factorial": "node ./factorial/iterative-factorial.js",
+    "recursive-factorial": "node ./factorial/recursive-factorial.js",
+    "iterative-fibonacci": "node ./fibonacci/iterative-fibonacci.js",
+    "recursive-fibonacci": "node ./fibonacci/recursive-fibonacci.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
