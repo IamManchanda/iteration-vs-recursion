@@ -3,7 +3,7 @@ function iterativeFibonacci(n) {
   if (n === 1) return 1;
   let previous = 0;
   let current = 1;
-  for (let i = n; i > 1; i--) {
+  for (let i = n; i > 1; i -= 1) {
     let next = previous + current;
     previous = current;
     current = next;
@@ -17,7 +17,7 @@ function iterativeFibonacci(n) {
   if (n === 1) return 1;
   let previous = 0;
   let current = 1;
-  for (let i = n; i > 1; i--) {
+  for (let i = n; i > 1; i -= 1) {
     let next = previous + current;
     previous = current;
     current = next;
